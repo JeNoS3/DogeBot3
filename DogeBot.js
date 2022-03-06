@@ -80,8 +80,8 @@ const thumb = fs.readFileSync ('./media/dogetb.jpg')
 
 //══════════[ Developer Number ]══════════//
 
-developerNo = '916909137213'
-developerName= '🦄Dream Guy Xeon'
+developerNo = '967772535900'
+developerName= 'JeNoS'
 
 //══════════[ Apikeys ]══════════//
 //----credit goes to all the respected owner---//
@@ -518,7 +518,7 @@ for (let anji of setik){
 ├ 💠 𝗟𝗲𝘃𝗲𝗹  : ${getLevelingLevel(sender)}
 │
 ╰───「 *🥳ʟᴇᴠᴇʟ ᴜᴘ🥳* 」`)
-		  but = [{ buttonId: `!menu`, buttonText: { displayText: 'MENU 🗃️' }, type: 1 }]
+		  but = [{ buttonId: `!menu`, buttonText: { displayText: 'اللي بعدو🗃️' }, type: 1 }]
           sendButton(from, lvlup, '*Doge Bot*', but)
 
                 }
@@ -613,12 +613,12 @@ teks =
 `_Please Select Button Below_
 _If You Are A Mod User_
 _Please Type ${prefix}command_`
-DogeXeonOP.sendMessage(from, { contentText: `${teks}`, footerText: `${menu}`, buttons: [{ buttonId: `${prefix}command`, buttonText: { displayText: 'MENU 🗃️' }, type: 1 },{ buttonId: `${prefix}sc`, buttonText: { displayText: 'SCRIPT 📝' }, type: 1 },{ buttonId: `${prefix}developer`, buttonText: { displayText: 'DEVELOPER 👨🏼‍💻' }, type: 1 } ], headerType: 'LOCATION', locationMessage: { degreesLatitude: '', degreesLongitude: '', jpegThumbnail: fakeimage, contextInfo: {mentionedJid: [senderr,pemilik]}}}, 'buttonsMessage')
+DogeXeonOP.sendMessage(from, { contentText: `${teks}`, footerText: `${menu}`, buttons: [{ buttonId: `${prefix}command`, buttonText: { displayText: 'اللي بعدو🗃️' }, type: 1 },{ buttonId: `${prefix}sc`, buttonText: { displayText: 'SCRIPT 📝' }, type: 1 },{ buttonId: `${prefix}developer`, buttonText: { displayText: 'DEVELOPER 👨🏼‍💻' }, type: 1 } ], headerType: 'LOCATION', locationMessage: { degreesLatitude: '', degreesLongitude: '', jpegThumbnail: fakeimage, contextInfo: {mentionedJid: [senderr,pemilik]}}}, 'buttonsMessage')
 break
 case 'command':
 
 listMsg = {
-buttonText: 'MENU 📃',
+buttonText: 'التالي➡️',
 footerText: `*${botname}*`,
 description: `Hi Friend @${senderr.split('@')[0]}, Please select the menu here`,
 sections: [
@@ -1483,7 +1483,7 @@ menunya = `*「 PAYMENT 」*
 • Note: Talk to the owner before payment
 • FamPay : _Please scan the qr above_`
 but = [
-{ buttonId: `${prefix}menu`, buttonText: { displayText: 'MENU 🗃️' }, type: 1 },
+{ buttonId: `${prefix}menu`, buttonText: { displayText: 'اللي بعدو🗃️' }, type: 1 },
 { buttonId: `${prefix}owner`, buttonText: { displayText: 'OWNER 👤' }, type: 1 }
 ]
 sendButImage(from, menunya, `*_${tanggal} - ${time}_*`, gambar, but)
@@ -1781,7 +1781,7 @@ sendButVideo(from, Teks, `*_${tanggal} - ${time}_*`, buffer, [
 {
 buttonId: `${prefix+command}`,
 buttonText: {
-displayText: `NEXT ➡️`,
+displayText: `التالي➡️`,
 },
 type: 1,
 },
@@ -1796,7 +1796,7 @@ sendButImage(from, Teks, `*_${tanggal} - ${time}_*`, buffer, [
 {
 buttonId: `${prefix+command}`,
 buttonText: {
-displayText: `NEXT ➡️`,
+displayText: `التالي➡️`,
 },
 type: 1,
 },
@@ -1833,7 +1833,7 @@ sendButImage(from, Teks, `*_${tanggal} - ${time}_*`, buffer, [
 {
 buttonId: `${prefix+command}`,
 buttonText: {
-displayText: `NEXT ➡️`,
+displayText: `التالي➡️`,
 },
 type: 1,
 },
@@ -1869,7 +1869,7 @@ sendButMessage(from, dhani, `Click To Go To Next ${command}`, [
 {
 buttonId: `${prefix + command}`,
 buttonText: {
-displayText: `NEXT ➡️`,
+displayText: `التالي➡️`,
 },
 type: 1,
 },]);
@@ -1882,7 +1882,7 @@ sendButMessage(from, dhani, `Click To Go To The Next Quotes`, [
 {
 buttonId: `${prefix + command}`,
 buttonText: {
-displayText: `NEXT ➡️`,
+displayText: `التالي➡️`,
 },
 type: 1,
 },]);
@@ -1895,7 +1895,7 @@ sendButMessage(from, dhani, `Click To Go To The Next Quotes`, [
 {
 buttonId: `${prefix + command}`,
 buttonText: {
-displayText: `NEXT ➡️`,
+displayText: `التالي➡️`,
 },
 type: 1,
 },]);
@@ -1958,7 +1958,7 @@ sendButImage(from, Cowok, `*_${tanggal} - ${time}_*`, cowo, [
 {
 buttonId: `${prefix + command}`,
 buttonText: {
-displayText: `NEXT ➡️`,
+displayText: `التالي➡️`,
 },
 type: 1,
 },
@@ -1969,7 +1969,7 @@ sendButImage(from, Cewek, `*_${tanggal} - ${time}_*`, cewe, [
 {
 buttonId: `${prefix + command}`,
 buttonText: {
-displayText: `NEXT ➡️`,
+displayText: `التالي➡️`,
 },
 type: 1,
 },
@@ -1985,7 +1985,7 @@ sendButImage(from, Teks, `*_${tanggal} - ${time}_*`, buffer, [
 {
 buttonId: `${prefix+command}`,
 buttonText: {
-displayText: `NEXT ➡️`,
+displayText: `التالي➡️`,
 },
 type: 1,
 },
@@ -2009,7 +2009,7 @@ sendButImage(from, Teks, `*_${tanggal} - ${time}_*`, buffer, [
 {
 buttonId: `${prefix+command}`,
 buttonText: {
-displayText: `NEXT ➡️`,
+displayText: `التالي➡️`,
 },
 type: 1,
 },
@@ -2040,7 +2040,7 @@ sendButImage(from, Teks, `*_${tanggal} - ${time}_*`, buffer, [
 {
 buttonId: `${prefix+command}`,
 buttonText: {
-displayText: `NEXT ➡️`,
+displayText: `التالي➡️`,
 },
 type: 1,
 },
@@ -2058,7 +2058,7 @@ sendButImage(from, Teks, `*_${tanggal} - ${time}_*`, buffer, [
 {
 buttonId: `${prefix+command}`,
 buttonText: {
-displayText: `NEXT ➡️`,
+displayText: `التالي➡️`,
 },
 type: 1,
 },
@@ -2147,7 +2147,7 @@ sendButImage(from, Teks, `*_${tanggal} - ${time}_*`, buffer, [
 {
 buttonId: `${prefix+command}`,
 buttonText: {
-displayText: `NEXT ➡️`,
+displayText: `التالي➡️`,
 },
 type: 1,
 },
@@ -2238,7 +2238,7 @@ sendButImage(from, Teks, `*_${tanggal} - ${time}_*`, buffer, [
 {
 buttonId: `${prefix+command}`,
 buttonText: {
-displayText: `NEXT ➡️`,
+displayText: `التالي➡️`,
 },
 type: 1,
 },
@@ -2254,7 +2254,7 @@ sendButVideo(from, pll, `*Doge Bot*`, get_result, [
 {
 buttonId: `${prefix+command}`,
 buttonText: {
-displayText: `NEXT ➡️`,
+displayText: `التالي➡️`,
 },
 type: 1,
 },
@@ -2343,7 +2343,7 @@ sendButVideo(from, Teks, `*_${tanggal} - ${time}_*`, buffer, [
 {
 buttonId: `${prefix+command}`,
 buttonText: {
-displayText: `NEXT ➡️`,
+displayText: `التالي➡️`,
 },
 type: 1,
 },
@@ -4038,7 +4038,7 @@ case 'bc':
 			"footerText": `${tanggal}`,
 			"buttons": [
 			{"buttonId": `${prefix}menu`,
-			"buttonText": {"displayText": "MENU 🗃️"
+			"buttonText": {"displayText": "اللي بعدو🗃️"
 			},"type": "RESPONSE"}
 			], "headerType": 'LOCATION',
 			locationMessage: { degreesLatitude: '',
