@@ -1455,9 +1455,7 @@ break
 
 case 'rentbot':
 menu =
-`*${ucapanWaktu} @${senderr.split('@')[0]}*
-
-\\\قايلك اسحب يابني اشبك😭😭؟. \\\`
+`*${ucapanWaktu} @${senderr.split('@')[0]}* قايلك اسحب يابني اشبك😭😭؟.`
 DogeXeonOP.sendMessage(from, { contentText: `${menu}`, footerText: `*_${tanggal} - ${time}_*`, buttons: [{ buttonId: `${prefix}payment`, buttonText: { displayText: 'اسحب ع ذا 😌 )؛ ' }, type: 1 },{ buttonId: `${prefix}developer`, buttonText: { displayText: 'مطور البوت👨🏼‍💻 )؛ }, type: 1 } ], headerType: 'LOCATION', locationMessage: { degreesLatitude: '', degreesLongitude: '', jpegThumbnail: fakeimage, contextInfo: {mentionedJid: [senderr]}}}, 'buttonsMessage')
 break
 case 'bayar':
