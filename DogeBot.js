@@ -271,7 +271,7 @@ console.log(e)
 //══════════[ Mess Dll ]══════════//
 
 mess = {
-wait: 'In process...',
+wait: 'صبر ثواني🕚 )؛',
 eror: 'Sorry an error occurred!!',
 success: 'Done✓',
 error: {
@@ -518,7 +518,7 @@ for (let anji of setik){
 ├ 💠 𝗟𝗲𝘃𝗲𝗹  : ${getLevelingLevel(sender)}
 │
 ╰───「 *🥳ʟᴇᴠᴇʟ ᴜᴘ🥳* 」`)
-		  but = [{ buttonId: `!menu`, buttonText: { displayText: 'اللي بعدو🗃️' }, type: 1 }]
+		  but = [{ buttonId: `!menu`, buttonText: { displayText: 'اللي بعدو🔄 )؛' }, type: 1 }]
           sendButton(from, lvlup, '*Doge Bot*', but)
 
                 }
@@ -610,119 +610,118 @@ ${gaya1} *Bio* : ${bio_user}
 ${gaya1} *Number* : @${senderr.split('@')[0]}
 ${gaya1} *Status* : ${isOwner ? 'Owner' : 'User'}`
 teks =
-`_Please Select Button Below_
-_If You Are A Mod User_
-_Please Type ${prefix}command_`
-DogeXeonOP.sendMessage(from, { contentText: `${teks}`, footerText: `${menu}`, buttons: [{ buttonId: `${prefix}command`, buttonText: { displayText: 'اللي بعدو🗃️' }, type: 1 },{ buttonId: `${prefix}sc`, buttonText: { displayText: 'SCRIPT 📝' }, type: 1 },{ buttonId: `${prefix}developer`, buttonText: { displayText: 'DEVELOPER 👨🏼‍💻' }, type: 1 } ], headerType: 'LOCATION', locationMessage: { degreesLatitude: '', degreesLongitude: '', jpegThumbnail: fakeimage, contextInfo: {mentionedJid: [senderr,pemilik]}}}, 'buttonsMessage')
+`أرحب ثم أرحب ثم أرحب  ، أنا بوت ، تابع لجينوس ، الخدمات والأوامر تلاقيها تحت شوفها بالضغط ع اللي بعدو🦋🦋 )؛  
+`
+DogeXeonOP.sendMessage(from, { contentText: `${teks}`, footerText: `${menu}`, buttons: [{ buttonId: `${prefix}command`, buttonText: { displayText: 'اللي بعدو🔄 )؛' }, type: 1 },{ buttonId: `${prefix}sc`, buttonText: { displayText: 'معلومات )؛' }, type: 1 },{ buttonId: `${prefix}developer`, buttonText: { displayText: 'مطور البوت👨🏼‍💻 )؛ }, type: 1 } ], headerType: 'LOCATION', locationMessage: { degreesLatitude: '', degreesLongitude: '', jpegThumbnail: fakeimage, contextInfo: {mentionedJid: [senderr,pemilik]}}}, 'buttonsMessage')
 break
 case 'command':
 
 listMsg = {
-buttonText: 'التالي➡️',
+buttonText: 'اللي بعد🔃 )؛',
 footerText: `*${botname}*`,
-description: `Hi Friend @${senderr.split('@')[0]}, Please select the menu here`,
+description: `أرحب حبيبي @${senderr.split('@')[0]} ، أختار اللذي تشتية من القائمة تحت ، عبر خيار اللي بعد😉 )؛ `,
 sections: [
 {
 "title": `${tanggal} - ${time}`,
 rows: [
 {
-"title": "GROUP MENU",
-"description": `Display A List Of Group Features`,
+"title": "أوامر القروبات💖 )؛ ",
+"description": `قسم خاص بأوامر القروبات:`,
 "rowId": `${prefix}grupmenu`
 },
 {
-"title": "DOWNLOAD MENU",
-"description": `Display A List Of Features To Download`,
+"title": "أوامر التحميل 💖 )؛ ",
+"description": `قسم خاص بأوامر التحميلات:`,
 "rowId": `${prefix}downloadmenu`
 },
 {
-"title": "MAKER MENU",
-"description": `Display A List Of Features To Create Logo`,
+"title": "أوامر تصميم ملصقات 💖 )؛ ",
+"description": `قسم خاص بأوامر تصميم الملصقات:`,
 "rowId": `${prefix}makermenu`
 },
 {
-"title": "GAME MENU",
-"description": `Display A List Of Game Features`,
+"title": "أوامر الالعاب 💖 )؛ ",
+"description": `قسم خاص بأوامر الالعاب:`,
 "rowId": `${prefix}gamemenu`
 },
 {
-"title": "RANDOM IMAGE MENU",
-"description": `Display A List Of Random Photo Features`,
+"title": "أوامر خلفيات 💖 )؛ ",
+"description": `قسم خاص بأوامر الخلفيات:`,
 "rowId": `${prefix}randomimage`
 },
 {
-"title": "RANDOM VIDEO",
-"description": `Display A List Of Random Video Features`,
+"title": "أوامر الفيد 💖 )؛ ",
+"description": `قسم خاص بأوامر الفيدات:`,
 "rowId": `${prefix}randomvideo`
 },
 {
-"title": "AESTHETIC GIRL MENU",
-"description": `Display A List Of 18+ Intake Features`,
+"title": "أسحب عهالخيار 💖 )؛ ",
+"description": `لاتضغطه عشان م يحدث اخطاء:`,
 "rowId": `${prefix}asupanmenu`
 },
 {
-"title": "RANDOM GIRL MENU",
-"description": `Display A List Of Random Girl Features`,
+"title": "أسحب عهالخيار 💖 )؛ ",
+"description": `لاتضغطه عشان م يحدث اخطاء:`,
 "rowId": `${prefix}cecanmenu`
 },
 {
-"title": "ANIME MENU",
-"description": `Display A List Of Anime Features`,
+"title": "أوامر الأنمي 💖 )؛ ",
+"description": `قسم خاص بأوامر الأنمي:`,
 "rowId": `${prefix}animemenu`
 },
 {
-"title": "NSFW/HENTAI MENU",
-"description": `Display A List Of Nsfw 18+ Features`,
+"title": "أسحب عهالخيار 💖 )؛ ",
+"description": `لاتضغطه عشان م يحدث اخطاء:`,
 "rowId": `${prefix}nsfwmenu`
 },
 {
-"title": "STICKER MENU",
-"description": `Display A List Of Sticker Features`,
+"title": "أوامر الملصقات 💖 )؛ ",
+"description": `قسم خاص بأوامر الملصقات:`,
 "rowId": `${prefix}stickermenu`
 },
 {
-"title": "FUN MENU",
-"description": `Display A List Of Fun Features`,
+"title": "أوامر أخرى 2 💖 )؛",
+"description": `أوامر متعددة:`,
 "rowId": `${prefix}funmenu`
 },
 {
-"title": "SOUND MENU",
-"description": `Display A List Of Sounds`,
+"title": "أوامر الصوت 💖 )؛ ",
+"description": `قسم خاص بأوامر الصوت:`,
 "rowId": `${prefix}soundmenu`
 },
 {
-"title": "OCR MENU",
-"description": `Display A List Of Ocr Features`,
+"title": "أوامر أخرى 3 💖 )؛",
+"description": `أوامر متعددة:`,
 "rowId": `${prefix}ocrmenu`
 },
 {
-"title": "CONVERTER MENU",
-"description": `Display A List Of Convert Features`,
+"title": "أوامر أخرى 4 💖 )؛",
+"description": `أوامر متعددة:`,
 "rowId": `${prefix}convertmenu`
 },
 {
-"title": "LEVELING MENU",
-"description": `Display A List Of Leveling Features`,
+"title": "أوامر أخرى 5 💖 )؛",
+"description": `أوامر متعددة:`,
 "rowId": `${prefix}levelingmenu`
 },
 {
-"title": "SEARCH MENU",
-"description": `Display A List Of Searching Features`,
+"title": "أوامر البحث 💖 )؛",
+"description": `قسم خاص بأوامر البحث:`,
 "rowId": `${prefix}searchmenu`
 },
 {
-"title": "APK MENU",
-"description": `Display A List Of Apk Features`,
+"title": "أوامر التطبيقات 💖 )؛ ",
+"description": `قسم خاص بأوامر التطبيقات:`,
 "rowId": `${prefix}apkmenu`
 },
 {
-"title": "OTHER MENU",
-"description": `Display A List Of Other Features`,
+"title": "أوامر أخرى 6 💖 )؛",
+"description": `أوامر متعددة:`,
 "rowId": `${prefix}othermenu`
 },
 {
-"title": "OWNER MENU",
-"description": `Display A List Of Owner Features`,
+"title": "أوامر خاصة بالأدمن 💖 )؛ ",
+"description": `قسم الأوامر الخاصة بالأدمن:`,
 "rowId": `${prefix}ownermenu`
 }
 ]
@@ -773,7 +772,7 @@ ${gaya2} ${prefix}groupinfo
 ${gaya2} ${prefix}grouplink
 ${gaya2} ${prefix}onlinelist
 ${gaya2} ${prefix}resetgrouplink`
-DogeXeonOP.sendMessage(from, { contentText: `${menu}`, footerText: `*_${tanggal}_*`, buttons: [{ buttonId: `${prefix}command`, buttonText: { displayText: 'BACK ⬅️' }, type: 1 },{ buttonId: `${prefix}owner`, buttonText: { displayText: 'OWNER 👤' }, type: 1 } ], headerType: 'LOCATION', locationMessage: { degreesLatitude: '', degreesLongitude: '', jpegThumbnail: fakeimage, contextInfo: {mentionedJid: [sender]}}}, 'buttonsMessage')
+DogeXeonOP.sendMessage(from, { contentText: `${menu}`, footerText: `*_${tanggal}_*`, buttons: [{ buttonId: `${prefix}command`, buttonText: { displayText: 'أرجع↪️ )؛' }, type: 1 },{ buttonId: `${prefix}owner`, buttonText: { displayText: 'المطور👤)؛' }, type: 1 } ], headerType: 'LOCATION', locationMessage: { degreesLatitude: '', degreesLongitude: '', jpegThumbnail: fakeimage, contextInfo: {mentionedJid: [sender]}}}, 'buttonsMessage')
 break
 case 'downloadmenu':
 
@@ -795,7 +794,7 @@ ${gaya2} ${prefix}instagram _video link_
 ${gaya2} ${prefix}herodetail _hero name_
 ${gaya2} ${prefix}herolist
 ${gaya2} ${prefix}lyrics _song name_`
-DogeXeonOP.sendMessage(from, { contentText: `${menu}`, footerText: `*_${tanggal}_*`, buttons: [{ buttonId: `${prefix}command`, buttonText: { displayText: 'BACK ⬅️' }, type: 1 },{ buttonId: `${prefix}owner`, buttonText: { displayText: 'OWNER 👤' }, type: 1 } ], headerType: 'LOCATION', locationMessage: { degreesLatitude: '', degreesLongitude: '', jpegThumbnail: fakeimage, contextInfo: {mentionedJid: [sender]}}}, 'buttonsMessage')
+DogeXeonOP.sendMessage(from, { contentText: `${menu}`, footerText: `*_${tanggal}_*`, buttons: [{ buttonId: `${prefix}command`, buttonText: { displayText: 'أرجع↪️ )؛' }, type: 1 },{ buttonId: `${prefix}owner`, buttonText: { displayText: 'المطور👤)؛' }, type: 1 } ], headerType: 'LOCATION', locationMessage: { degreesLatitude: '', degreesLongitude: '', jpegThumbnail: fakeimage, contextInfo: {mentionedJid: [sender]}}}, 'buttonsMessage')
 break
 case 'makermenu':
 
@@ -944,7 +943,7 @@ ${gaya2} ${prefix}makerkaneki _Text1&Text2_
 ${gaya2} ${prefix}rem _Text1&Text2_
 ${gaya2} ${prefix}lolimaker _Text1&Text2_
 ${gaya2} ${prefix}gura _Text1&Text2_`
-DogeXeonOP.sendMessage(from, { contentText: `${menu}`, footerText: `*_${tanggal}_*`, buttons: [{ buttonId: `${prefix}command`, buttonText: { displayText: 'BACK ⬅️' }, type: 1 },{ buttonId: `${prefix}owner`, buttonText: { displayText: 'OWNER 👤' }, type: 1 } ], headerType: 'LOCATION', locationMessage: { degreesLatitude: '', degreesLongitude: '', jpegThumbnail: fakeimage, contextInfo: {mentionedJid: [sender]}}}, 'buttonsMessage')
+DogeXeonOP.sendMessage(from, { contentText: `${menu}`, footerText: `*_${tanggal}_*`, buttons: [{ buttonId: `${prefix}command`, buttonText: { displayText: 'أرجع↪️ )؛' }, type: 1 },{ buttonId: `${prefix}owner`, buttonText: { displayText: 'المطور👤)؛' }, type: 1 } ], headerType: 'LOCATION', locationMessage: { degreesLatitude: '', degreesLongitude: '', jpegThumbnail: fakeimage, contextInfo: {mentionedJid: [sender]}}}, 'buttonsMessage')
 break
 case 'gamemenu':
 
@@ -953,7 +952,7 @@ menu =
 
 ${gaya2} ${prefix}truth
 ${gaya2} ${prefix}dare`
-DogeXeonOP.sendMessage(from, { contentText: `${menu}`, footerText: `*_${tanggal}_*`, buttons: [{ buttonId: `${prefix}command`, buttonText: { displayText: 'BACK ⬅️' }, type: 1 },{ buttonId: `${prefix}owner`, buttonText: { displayText: 'OWNER 👤' }, type: 1 } ], headerType: 'LOCATION', locationMessage: { degreesLatitude: '', degreesLongitude: '', jpegThumbnail: fakeimage, contextInfo: {mentionedJid: [sender]}}}, 'buttonsMessage')
+DogeXeonOP.sendMessage(from, { contentText: `${menu}`, footerText: `*_${tanggal}_*`, buttons: [{ buttonId: `${prefix}command`, buttonText: { displayText: 'أرجع↪️ )؛' }, type: 1 },{ buttonId: `${prefix}owner`, buttonText: { displayText: 'المطور👤)؛' }, type: 1 } ], headerType: 'LOCATION', locationMessage: { degreesLatitude: '', degreesLongitude: '', jpegThumbnail: fakeimage, contextInfo: {mentionedJid: [sender]}}}, 'buttonsMessage')
 break
 case 'randomimage':
 
@@ -989,7 +988,7 @@ ${gaya2} ${prefix}wallpaperhp2
 ${gaya2} ${prefix}wallpaperkpop
 ${gaya2} ${prefix}wallpaperblackpink
 ${gaya2} ${prefix}wallpapergame`
-DogeXeonOP.sendMessage(from, { contentText: `${menu}`, footerText: `*_${tanggal}_*`, buttons: [{ buttonId: `${prefix}command`, buttonText: { displayText: 'BACK ⬅️' }, type: 1 },{ buttonId: `${prefix}owner`, buttonText: { displayText: 'OWNER 👤' }, type: 1 } ], headerType: 'LOCATION', locationMessage: { degreesLatitude: '', degreesLongitude: '', jpegThumbnail: fakeimage, contextInfo: {mentionedJid: [sender]}}}, 'buttonsMessage')
+DogeXeonOP.sendMessage(from, { contentText: `${menu}`, footerText: `*_${tanggal}_*`, buttons: [{ buttonId: `${prefix}command`, buttonText: { displayText: 'أرجع↪️ )؛' }, type: 1 },{ buttonId: `${prefix}owner`, buttonText: { displayText: 'المطور👤)؛' }, type: 1 } ], headerType: 'LOCATION', locationMessage: { degreesLatitude: '', degreesLongitude: '', jpegThumbnail: fakeimage, contextInfo: {mentionedJid: [sender]}}}, 'buttonsMessage')
 break
 case 'randomvideo':
 
@@ -1021,7 +1020,7 @@ ${gaya2} ${prefix}santuy
 ${gaya2} ${prefix}ukhty
 ${gaya2} ${prefix}gheayubi
 ${gaya2} ${prefix}nantalia`
-DogeXeonOP.sendMessage(from, { contentText: `${menu}`, footerText: `*_${tanggal}_*`, buttons: [{ buttonId: `${prefix}command`, buttonText: { displayText: 'BACK ⬅️' }, type: 1 },{ buttonId: `${prefix}owner`, buttonText: { displayText: 'OWNER 👤' }, type: 1 } ], headerType: 'LOCATION', locationMessage: { degreesLatitude: '', degreesLongitude: '', jpegThumbnail: fakeimage, contextInfo: {mentionedJid: [sender]}}}, 'buttonsMessage')
+DogeXeonOP.sendMessage(from, { contentText: `${menu}`, footerText: `*_${tanggal}_*`, buttons: [{ buttonId: `${prefix}command`, buttonText: { displayText: 'أرجع↪️ )؛' }, type: 1 },{ buttonId: `${prefix}owner`, buttonText: { displayText: 'المطور👤)؛' }, type: 1 } ], headerType: 'LOCATION', locationMessage: { degreesLatitude: '', degreesLongitude: '', jpegThumbnail: fakeimage, contextInfo: {mentionedJid: [sender]}}}, 'buttonsMessage')
 break
 case 'cecanmenu':
 
@@ -1045,7 +1044,7 @@ ${gaya2} ${prefix}indonesia
 ${gaya2} ${prefix}korea
 ${gaya2} ${prefix}japan
 ${gaya2} ${prefix}malaysia`
-DogeXeonOP.sendMessage(from, { contentText: `${menu}`, footerText: `*_${tanggal}_*`, buttons: [{ buttonId: `${prefix}command`, buttonText: { displayText: 'BACK ⬅️' }, type: 1 },{ buttonId: `${prefix}owner`, buttonText: { displayText: 'OWNER 👤' }, type: 1 } ], headerType: 'LOCATION', locationMessage: { degreesLatitude: '', degreesLongitude: '', jpegThumbnail: fakeimage, contextInfo: {mentionedJid: [sender]}}}, 'buttonsMessage')
+DogeXeonOP.sendMessage(from, { contentText: `${menu}`, footerText: `*_${tanggal}_*`, buttons: [{ buttonId: `${prefix}command`, buttonText: { displayText: 'أرجع↪️ )؛' }, type: 1 },{ buttonId: `${prefix}owner`, buttonText: { displayText: 'المطور👤)؛' }, type: 1 } ], headerType: 'LOCATION', locationMessage: { degreesLatitude: '', degreesLongitude: '', jpegThumbnail: fakeimage, contextInfo: {mentionedJid: [sender]}}}, 'buttonsMessage')
 break
 case 'animemenu':
 
@@ -1115,7 +1114,7 @@ ${gaya2} ${prefix}yuki
 ${gaya2} ${prefix}yumeko
 ${gaya2} ${prefix}fanart
 ${gaya2} ${prefix}nino`
-DogeXeonOP.sendMessage(from, { contentText: `${menu}`, footerText: `*_${tanggal}_*`, buttons: [{ buttonId: `${prefix}command`, buttonText: { displayText: 'BACK ⬅️' }, type: 1 },{ buttonId: `${prefix}owner`, buttonText: { displayText: 'OWNER 👤' }, type: 1 } ], headerType: 'LOCATION', locationMessage: { degreesLatitude: '', degreesLongitude: '', jpegThumbnail: fakeimage, contextInfo: {mentionedJid: [sender]}}}, 'buttonsMessage')
+DogeXeonOP.sendMessage(from, { contentText: `${menu}`, footerText: `*_${tanggal}_*`, buttons: [{ buttonId: `${prefix}command`, buttonText: { displayText: 'أرجع↪️ )؛' }, type: 1 },{ buttonId: `${prefix}owner`, buttonText: { displayText: 'المطور👤)؛' }, type: 1 } ], headerType: 'LOCATION', locationMessage: { degreesLatitude: '', degreesLongitude: '', jpegThumbnail: fakeimage, contextInfo: {mentionedJid: [sender]}}}, 'buttonsMessage')
 break
 case 'nsfwmenu':
 
@@ -1191,7 +1190,7 @@ ${gaya2} ${prefix}pussy
 ${gaya2} ${prefix}thighs
 ${gaya2} ${prefix}yuri
 ${gaya2} ${prefix}bokep`
-DogeXeonOP.sendMessage(from, { contentText: `${menu}`, footerText: `*_${tanggal}_*`, buttons: [{ buttonId: `${prefix}command`, buttonText: { displayText: 'BACK ⬅️' }, type: 1 },{ buttonId: `${prefix}owner`, buttonText: { displayText: 'OWNER 👤' }, type: 1 } ], headerType: 'LOCATION', locationMessage: { degreesLatitude: '', degreesLongitude: '', jpegThumbnail: fakeimage, contextInfo: {mentionedJid: [sender]}}}, 'buttonsMessage')
+DogeXeonOP.sendMessage(from, { contentText: `${menu}`, footerText: `*_${tanggal}_*`, buttons: [{ buttonId: `${prefix}command`, buttonText: { displayText: 'أرجع↪️ )؛' }, type: 1 },{ buttonId: `${prefix}owner`, buttonText: { displayText: 'المطور👤)؛' }, type: 1 } ], headerType: 'LOCATION', locationMessage: { degreesLatitude: '', degreesLongitude: '', jpegThumbnail: fakeimage, contextInfo: {mentionedJid: [sender]}}}, 'buttonsMessage')
 break
 case 'stickermenu':
 
@@ -1210,7 +1209,7 @@ ${gaya2} ${prefix}semoji _Emoji_
 ${gaya2} ${prefix}stcmemepic _Up Txt|Down Txt_
 ${gaya2} ${prefix}stcmeme _Up Txt|Down Txt_
 ${gaya2} ${prefix}memegenerator _Text_`
-DogeXeonOP.sendMessage(from, { contentText: `${menu}`, footerText: `*_${tanggal}_*`, buttons: [{ buttonId: `${prefix}command`, buttonText: { displayText: 'BACK ⬅️' }, type: 1 },{ buttonId: `${prefix}owner`, buttonText: { displayText: 'OWNER 👤' }, type: 1 } ], headerType: 'LOCATION', locationMessage: { degreesLatitude: '', degreesLongitude: '', jpegThumbnail: fakeimage, contextInfo: {mentionedJid: [sender]}}}, 'buttonsMessage')
+DogeXeonOP.sendMessage(from, { contentText: `${menu}`, footerText: `*_${tanggal}_*`, buttons: [{ buttonId: `${prefix}command`, buttonText: { displayText: 'أرجع↪️ )؛' }, type: 1 },{ buttonId: `${prefix}owner`, buttonText: { displayText: 'المطور👤)؛' }, type: 1 } ], headerType: 'LOCATION', locationMessage: { degreesLatitude: '', degreesLongitude: '', jpegThumbnail: fakeimage, contextInfo: {mentionedJid: [sender]}}}, 'buttonsMessage')
 break
 case 'funmenu':
 
@@ -1248,7 +1247,7 @@ ${gaya2} ${prefix}beautycheck [tag]
 ${gaya2} ${prefix}gaycheck [tag]
 ${gaya2} ${prefix}lesbiancheck [tag]
 ${gaya2} ${prefix}charactercheck [tag]`
-DogeXeonOP.sendMessage(from, { contentText: `${menu}`, footerText: `*_${tanggal}_*`, buttons: [{ buttonId: `${prefix}command`, buttonText: { displayText: 'BACK ⬅️' }, type: 1 },{ buttonId: `${prefix}owner`, buttonText: { displayText: 'OWNER 👤' }, type: 1 } ], headerType: 'LOCATION', locationMessage: { degreesLatitude: '', degreesLongitude: '', jpegThumbnail: fakeimage, contextInfo: {mentionedJid: [sender]}}}, 'buttonsMessage')
+DogeXeonOP.sendMessage(from, { contentText: `${menu}`, footerText: `*_${tanggal}_*`, buttons: [{ buttonId: `${prefix}command`, buttonText: { displayText: 'أرجع↪️ )؛' }, type: 1 },{ buttonId: `${prefix}owner`, buttonText: { displayText: 'المطور👤)؛' }, type: 1 } ], headerType: 'LOCATION', locationMessage: { degreesLatitude: '', degreesLongitude: '', jpegThumbnail: fakeimage, contextInfo: {mentionedJid: [sender]}}}, 'buttonsMessage')
 break
 case 'soundmenu':
 
@@ -1328,7 +1327,7 @@ ${gaya2} ${prefix}sound71
 ${gaya2} ${prefix}sound72
 ${gaya2} ${prefix}sound73
 ${gaya2} ${prefix}sound74`
-DogeXeonOP.sendMessage(from, { contentText: `${menu}`, footerText: `*_${tanggal}_*`, buttons: [{ buttonId: `${prefix}command`, buttonText: { displayText: 'BACK ⬅️' }, type: 1 },{ buttonId: `${prefix}owner`, buttonText: { displayText: 'OWNER 👤' }, type: 1 } ], headerType: 'LOCATION', locationMessage: { degreesLatitude: '', degreesLongitude: '', jpegThumbnail: fakeimage, contextInfo: {mentionedJid: [sender]}}}, 'buttonsMessage')
+DogeXeonOP.sendMessage(from, { contentText: `${menu}`, footerText: `*_${tanggal}_*`, buttons: [{ buttonId: `${prefix}command`, buttonText: { displayText: 'أرجع↪️ )؛' }, type: 1 },{ buttonId: `${prefix}owner`, buttonText: { displayText: 'المطور👤)؛' }, type: 1 } ], headerType: 'LOCATION', locationMessage: { degreesLatitude: '', degreesLongitude: '', jpegThumbnail: fakeimage, contextInfo: {mentionedJid: [sender]}}}, 'buttonsMessage')
 break
 case 'ocrmenu':
 
@@ -1338,7 +1337,7 @@ menu =
 ${gaya2} ${prefix}ninjaname _Name_
 ${gaya2} ${prefix}stylishcoolname
 ${gaya2} ${prefix}ssweb _URL_`
-DogeXeonOP.sendMessage(from, { contentText: `${menu}`, footerText: `*_${tanggal}_*`, buttons: [{ buttonId: `${prefix}command`, buttonText: { displayText: 'BACK ⬅️' }, type: 1 },{ buttonId: `${prefix}owner`, buttonText: { displayText: 'OWNER 👤' }, type: 1 } ], headerType: 'LOCATION', locationMessage: { degreesLatitude: '', degreesLongitude: '', jpegThumbnail: fakeimage, contextInfo: {mentionedJid: [sender]}}}, 'buttonsMessage')
+DogeXeonOP.sendMessage(from, { contentText: `${menu}`, footerText: `*_${tanggal}_*`, buttons: [{ buttonId: `${prefix}command`, buttonText: { displayText: 'أرجع↪️ )؛' }, type: 1 },{ buttonId: `${prefix}owner`, buttonText: { displayText: 'المطور👤)؛' }, type: 1 } ], headerType: 'LOCATION', locationMessage: { degreesLatitude: '', degreesLongitude: '', jpegThumbnail: fakeimage, contextInfo: {mentionedJid: [sender]}}}, 'buttonsMessage')
 break
 case 'convertmenu':
 
@@ -1363,7 +1362,7 @@ ${gaya2} ${prefix}tomp3 _reply video_
 ${gaya2} ${prefix}toimg _reply sticker_
 ${gaya2} ${prefix}tourl _reply image/vid_
 ${gaya2} ${prefix}tts _code text_`
-DogeXeonOP.sendMessage(from, { contentText: `${menu}`, footerText: `*_${tanggal}_*`, buttons: [{ buttonId: `${prefix}command`, buttonText: { displayText: 'BACK ⬅️' }, type: 1 },{ buttonId: `${prefix}owner`, buttonText: { displayText: 'OWNER 👤' }, type: 1 } ], headerType: 'LOCATION', locationMessage: { degreesLatitude: '', degreesLongitude: '', jpegThumbnail: fakeimage, contextInfo: {mentionedJid: [sender]}}}, 'buttonsMessage')
+DogeXeonOP.sendMessage(from, { contentText: `${menu}`, footerText: `*_${tanggal}_*`, buttons: [{ buttonId: `${prefix}command`, buttonText: { displayText: 'أرجع↪️ )؛' }, type: 1 },{ buttonId: `${prefix}owner`, buttonText: { displayText: 'المطور👤)؛' }, type: 1 } ], headerType: 'LOCATION', locationMessage: { degreesLatitude: '', degreesLongitude: '', jpegThumbnail: fakeimage, contextInfo: {mentionedJid: [sender]}}}, 'buttonsMessage')
 break
 case 'levelingmenu':
 
@@ -1372,24 +1371,24 @@ menu =
 
 ${gaya2} ${prefix}profile
 ${gaya2} ${prefix}level`
-DogeXeonOP.sendMessage(from, { contentText: `${menu}`, footerText: `*_${tanggal}_*`, buttons: [{ buttonId: `${prefix}command`, buttonText: { displayText: 'BACK ⬅️' }, type: 1 },{ buttonId: `${prefix}owner`, buttonText: { displayText: 'OWNER 👤' }, type: 1 } ], headerType: 'LOCATION', locationMessage: { degreesLatitude: '', degreesLongitude: '', jpegThumbnail: fakeimage, contextInfo: {mentionedJid: [sender]}}}, 'buttonsMessage')
+DogeXeonOP.sendMessage(from, { contentText: `${menu}`, footerText: `*_${tanggal}_*`, buttons: [{ buttonId: `${prefix}command`, buttonText: { displayText: 'أرجع↪️ )؛' }, type: 1 },{ buttonId: `${prefix}owner`, buttonText: { displayText: 'المطور👤)؛' }, type: 1 } ], headerType: 'LOCATION', locationMessage: { degreesLatitude: '', degreesLongitude: '', jpegThumbnail: fakeimage, contextInfo: {mentionedJid: [sender]}}}, 'buttonsMessage')
 break
 case 'searchmenu':
 
 menu =
-`*「 SEARCH MENU 」*
+`*أوامر البحث💖 )؛ *
 
 ${gaya2} ${prefix}playstore _Query_
 ${gaya2} ${prefix}ytsearch _Query_
 ${gaya2} ${prefix}pinterest _Query_
 ${gaya2} ${prefix}googleimg _Query_
 ${gaya2} ${prefix}google _Query_`
-DogeXeonOP.sendMessage(from, { contentText: `${menu}`, footerText: `*_${tanggal}_*`, buttons: [{ buttonId: `${prefix}command`, buttonText: { displayText: 'BACK ⬅️' }, type: 1 },{ buttonId: `${prefix}owner`, buttonText: { displayText: 'OWNER 👤' }, type: 1 } ], headerType: 'LOCATION', locationMessage: { degreesLatitude: '', degreesLongitude: '', jpegThumbnail: fakeimage, contextInfo: {mentionedJid: [sender]}}}, 'buttonsMessage')
+DogeXeonOP.sendMessage(from, { contentText: `${menu}`, footerText: `*_${tanggal}_*`, buttons: [{ buttonId: `${prefix}command`, buttonText: { displayText: 'أرجع↪️ )؛' }, type: 1 },{ buttonId: `${prefix}owner`, buttonText: { displayText: 'المطور👤)؛' }, type: 1 } ], headerType: 'LOCATION', locationMessage: { degreesLatitude: '', degreesLongitude: '', jpegThumbnail: fakeimage, contextInfo: {mentionedJid: [sender]}}}, 'buttonsMessage')
 break
 case 'apkmenu':
 
 menu =
-`*「 APK MENU 」*
+`*أوامر التطبيقات 💖 )؛ *
 
 ${gaya2} ${prefix}apkdone _Apk Name_
 ${gaya2} ${prefix}apkgoogle _Apk Name_
@@ -1399,12 +1398,12 @@ ${gaya2} ${prefix}toraccino _Apk Name_
 ${gaya2} ${prefix}uapkpro _Apk Name_
 ${gaya2} ${prefix}apkmody _Apk Name_
 ${gaya2} ${prefix}apkshub _Apk Name_`
-DogeXeonOP.sendMessage(from, { contentText: `${menu}`, footerText: `*_${tanggal}_*`, buttons: [{ buttonId: `${prefix}command`, buttonText: { displayText: 'BACK ⬅️' }, type: 1 },{ buttonId: `${prefix}owner`, buttonText: { displayText: 'OWNER 👤' }, type: 1 } ], headerType: 'LOCATION', locationMessage: { degreesLatitude: '', degreesLongitude: '', jpegThumbnail: fakeimage, contextInfo: {mentionedJid: [sender]}}}, 'buttonsMessage')
+DogeXeonOP.sendMessage(from, { contentText: `${menu}`, footerText: `*_${tanggal}_*`, buttons: [{ buttonId: `${prefix}command`, buttonText: { displayText: 'أرجع↪️ )؛' }, type: 1 },{ buttonId: `${prefix}owner`, buttonText: { displayText: 'المطور👤)؛' }, type: 1 } ], headerType: 'LOCATION', locationMessage: { degreesLatitude: '', degreesLongitude: '', jpegThumbnail: fakeimage, contextInfo: {mentionedJid: [sender]}}}, 'buttonsMessage')
 break
 case 'othermenu':
 
 menu =
-`*「 OTHER MENU 」*
+`*قسم الأوامر الأخرى 💖 )؛ *
 
 ${gaya2} ${prefix}runtime
 ${gaya2} ${prefix}speed
@@ -1414,12 +1413,12 @@ ${gaya2} ${prefix}owner
 ${gaya2} ${prefix}developer
 ${gaya2} ${prefix}script
 ${gaya2} ${prefix}delete _Reply to bot messages_`
-DogeXeonOP.sendMessage(from, { contentText: `${menu}`, footerText: `*_${tanggal}_*`, buttons: [{ buttonId: `${prefix}command`, buttonText: { displayText: 'BACK ⬅️' }, type: 1 },{ buttonId: `${prefix}owner`, buttonText: { displayText: 'OWNER 👤' }, type: 1 } ], headerType: 'LOCATION', locationMessage: { degreesLatitude: '', degreesLongitude: '', jpegThumbnail: fakeimage, contextInfo: {mentionedJid: [sender]}}}, 'buttonsMessage')
+DogeXeonOP.sendMessage(from, { contentText: `${menu}`, footerText: `*_${tanggal}_*`, buttons: [{ buttonId: `${prefix}command`, buttonText: { displayText: 'أرجع↪️ )؛' }, type: 1 },{ buttonId: `${prefix}owner`, buttonText: { displayText: 'المطور👤)؛' }, type: 1 } ], headerType: 'LOCATION', locationMessage: { degreesLatitude: '', degreesLongitude: '', jpegThumbnail: fakeimage, contextInfo: {mentionedJid: [sender]}}}, 'buttonsMessage')
 break
 case 'ownermenu':
 
 menu =
-`*「 OWNER MENU 」*
+`*أوامر خاصة بالأدمن 💖 )؛ *
 
 ${gaya2} ${prefix}spam _text|amount_
 ${gaya2} ${prefix}tospam _reply with amount_
@@ -1445,7 +1444,7 @@ ${gaya2} ${prefix}clearall
 ${gaya2} ${prefix}leaveall
 ${gaya2} ${prefix}public
 ${gaya2} ${prefix}self`
-DogeXeonOP.sendMessage(from, { contentText: `${menu}`, footerText: `*_${tanggal}_*`, buttons: [{ buttonId: `${prefix}command`, buttonText: { displayText: 'BACK ⬅️' }, type: 1 },{ buttonId: `${prefix}owner`, buttonText: { displayText: '𝙾𝚆𝙽??𝚁' }, type: 1 } ], headerType: 'LOCATION', locationMessage: { degreesLatitude: '', degreesLongitude: '', jpegThumbnail: fakeimage, contextInfo: {mentionedJid: [sender]}}}, 'buttonsMessage')
+DogeXeonOP.sendMessage(from, { contentText: `${menu}`, footerText: `*_${tanggal}_*`, buttons: [{ buttonId: `${prefix}command`, buttonText: { displayText: 'أرجع↪️ )؛' }, type: 1 },{ buttonId: `${prefix}owner`, buttonText: { displayText: '𝙾𝚆𝙽??𝚁' }, type: 1 } ], headerType: 'LOCATION', locationMessage: { degreesLatitude: '', degreesLongitude: '', jpegThumbnail: fakeimage, contextInfo: {mentionedJid: [sender]}}}, 'buttonsMessage')
 break
 case 'abcde':
 
@@ -1458,33 +1457,17 @@ case 'rentbot':
 menu =
 `*${ucapanWaktu} @${senderr.split('@')[0]}*
 
-\`\`\`OPEN FOR RENT :\`\`\`
-➪ *1 Week :* _100INR_
-➪ *1 Month :* _200INR_
-➪ *Permanent :* _550INR_
-
-\`\`\`OPEN FOR STUDENTS :\`\`\`
-➪ *Ordinary student :* _500INR_
-➪ *Premium student :* _1000INR_
-
-\`\`\`OPEN FOR SC :\`\`\`
-➪ *Wanna buy this script? :* _Price: ₹250 (India)_
-
-For those who want to buy script or interested in any of the above
-Can request, if interested please contact the developer`
-DogeXeonOP.sendMessage(from, { contentText: `${menu}`, footerText: `*_${tanggal} - ${time}_*`, buttons: [{ buttonId: `${prefix}payment`, buttonText: { displayText: 'PAYMENT 💸' }, type: 1 },{ buttonId: `${prefix}developer`, buttonText: { displayText: 'DEVELOPER 👨🏼‍💻' }, type: 1 } ], headerType: 'LOCATION', locationMessage: { degreesLatitude: '', degreesLongitude: '', jpegThumbnail: fakeimage, contextInfo: {mentionedJid: [senderr]}}}, 'buttonsMessage')
+\\\قايلك اسحب يابني اشبك😭😭؟. \\\`
+DogeXeonOP.sendMessage(from, { contentText: `${menu}`, footerText: `*_${tanggal} - ${time}_*`, buttons: [{ buttonId: `${prefix}payment`, buttonText: { displayText: 'اسحب ع ذا 😌 )؛ ' }, type: 1 },{ buttonId: `${prefix}developer`, buttonText: { displayText: 'مطور البوت👨🏼‍💻 )؛ }, type: 1 } ], headerType: 'LOCATION', locationMessage: { degreesLatitude: '', degreesLongitude: '', jpegThumbnail: fakeimage, contextInfo: {mentionedJid: [senderr]}}}, 'buttonsMessage')
 break
 case 'bayar':
 case 'payment':
 
 gambar = fs.readFileSync('./media/doged.jpg')
-menunya = `*「 PAYMENT 」*
-
-• Note: Talk to the owner before payment
-• FamPay : _Please scan the qr above_`
+menunya = `*قايلك اسحب يابني اشبك😭😭؟. *`
 but = [
-{ buttonId: `${prefix}menu`, buttonText: { displayText: 'اللي بعدو🗃️' }, type: 1 },
-{ buttonId: `${prefix}owner`, buttonText: { displayText: 'OWNER 👤' }, type: 1 }
+{ buttonId: `${prefix}menu`, buttonText: { displayText: 'اللي بعدو🔄 )؛' }, type: 1 },
+{ buttonId: `${prefix}owner`, buttonText: { displayText: 'المطور👤)؛' }, type: 1 }
 ]
 sendButImage(from, menunya, `*_${tanggal} - ${time}_*`, gambar, but)
 break
@@ -1536,7 +1519,7 @@ Please Choose Whether Document, Audio or Video Below`
         if (!isUrl(args[0]) && !args[0].includes('mediafire')) return reply(mess.error.Iv)
         teks = args.join(' ')
         res = await mediafireDl(teks)
-        result = `In process...`
+        result = `صبر ثواني🕚 )؛`
         reply(result)
         sendFileFromUrl(res[0].link, document, { mimetype: res[0].mime, filename: res[0].nama, quoted: mek})
         break
@@ -1545,7 +1528,7 @@ Please Choose Whether Document, Audio or Video Below`
         if (!isUrl(args[0]) && !args[0].includes('mediafire')) return reply(mess.error.Iv)
         teks = args.join(' ')
         res = await mediafireDl(teks)
-        result = `In process...`
+        result = `صبر ثواني🕚 )؛`
         reply(result)
         sendFileFromUrl(res[0].link, video, { quoted: mek, mimetype: 'video/mp4', filename: res[0].output })
         break
@@ -1781,7 +1764,7 @@ sendButVideo(from, Teks, `*_${tanggal} - ${time}_*`, buffer, [
 {
 buttonId: `${prefix+command}`,
 buttonText: {
-displayText: `التالي➡️`,
+displayText: `اللي بعد🔃 )؛`,
 },
 type: 1,
 },
@@ -1796,7 +1779,7 @@ sendButImage(from, Teks, `*_${tanggal} - ${time}_*`, buffer, [
 {
 buttonId: `${prefix+command}`,
 buttonText: {
-displayText: `التالي➡️`,
+displayText: `اللي بعد🔃 )؛`,
 },
 type: 1,
 },
@@ -1833,7 +1816,7 @@ sendButImage(from, Teks, `*_${tanggal} - ${time}_*`, buffer, [
 {
 buttonId: `${prefix+command}`,
 buttonText: {
-displayText: `التالي➡️`,
+displayText: `اللي بعد🔃 )؛`,
 },
 type: 1,
 },
@@ -1869,7 +1852,7 @@ sendButMessage(from, dhani, `Click To Go To Next ${command}`, [
 {
 buttonId: `${prefix + command}`,
 buttonText: {
-displayText: `التالي➡️`,
+displayText: `اللي بعد🔃 )؛`,
 },
 type: 1,
 },]);
@@ -1882,7 +1865,7 @@ sendButMessage(from, dhani, `Click To Go To The Next Quotes`, [
 {
 buttonId: `${prefix + command}`,
 buttonText: {
-displayText: `التالي➡️`,
+displayText: `اللي بعد🔃 )؛`,
 },
 type: 1,
 },]);
@@ -1895,7 +1878,7 @@ sendButMessage(from, dhani, `Click To Go To The Next Quotes`, [
 {
 buttonId: `${prefix + command}`,
 buttonText: {
-displayText: `التالي➡️`,
+displayText: `اللي بعد🔃 )؛`,
 },
 type: 1,
 },]);
@@ -1958,7 +1941,7 @@ sendButImage(from, Cowok, `*_${tanggal} - ${time}_*`, cowo, [
 {
 buttonId: `${prefix + command}`,
 buttonText: {
-displayText: `التالي➡️`,
+displayText: `اللي بعد🔃 )؛`,
 },
 type: 1,
 },
@@ -1969,7 +1952,7 @@ sendButImage(from, Cewek, `*_${tanggal} - ${time}_*`, cewe, [
 {
 buttonId: `${prefix + command}`,
 buttonText: {
-displayText: `التالي➡️`,
+displayText: `اللي بعد🔃 )؛`,
 },
 type: 1,
 },
@@ -1985,7 +1968,7 @@ sendButImage(from, Teks, `*_${tanggal} - ${time}_*`, buffer, [
 {
 buttonId: `${prefix+command}`,
 buttonText: {
-displayText: `التالي➡️`,
+displayText: `اللي بعد🔃 )؛`,
 },
 type: 1,
 },
@@ -2009,7 +1992,7 @@ sendButImage(from, Teks, `*_${tanggal} - ${time}_*`, buffer, [
 {
 buttonId: `${prefix+command}`,
 buttonText: {
-displayText: `التالي➡️`,
+displayText: `اللي بعد🔃 )؛`,
 },
 type: 1,
 },
@@ -2040,7 +2023,7 @@ sendButImage(from, Teks, `*_${tanggal} - ${time}_*`, buffer, [
 {
 buttonId: `${prefix+command}`,
 buttonText: {
-displayText: `التالي➡️`,
+displayText: `اللي بعد🔃 )؛`,
 },
 type: 1,
 },
@@ -2058,7 +2041,7 @@ sendButImage(from, Teks, `*_${tanggal} - ${time}_*`, buffer, [
 {
 buttonId: `${prefix+command}`,
 buttonText: {
-displayText: `التالي➡️`,
+displayText: `اللي بعد🔃 )؛`,
 },
 type: 1,
 },
@@ -2147,7 +2130,7 @@ sendButImage(from, Teks, `*_${tanggal} - ${time}_*`, buffer, [
 {
 buttonId: `${prefix+command}`,
 buttonText: {
-displayText: `التالي➡️`,
+displayText: `اللي بعد🔃 )؛`,
 },
 type: 1,
 },
@@ -2238,7 +2221,7 @@ sendButImage(from, Teks, `*_${tanggal} - ${time}_*`, buffer, [
 {
 buttonId: `${prefix+command}`,
 buttonText: {
-displayText: `التالي➡️`,
+displayText: `اللي بعد🔃 )؛`,
 },
 type: 1,
 },
@@ -2254,7 +2237,7 @@ sendButVideo(from, pll, `*Doge Bot*`, get_result, [
 {
 buttonId: `${prefix+command}`,
 buttonText: {
-displayText: `التالي➡️`,
+displayText: `اللي بعد🔃 )؛`,
 },
 type: 1,
 },
@@ -2343,7 +2326,7 @@ sendButVideo(from, Teks, `*_${tanggal} - ${time}_*`, buffer, [
 {
 buttonId: `${prefix+command}`,
 buttonText: {
-displayText: `التالي➡️`,
+displayText: `اللي بعد🔃 )؛`,
 },
 type: 1,
 },
@@ -2854,7 +2837,7 @@ members_ids.push(mem.jid)
 vcard2 = 'BEGIN:VCARD\n'
 + 'VERSION:3.0\n'
 + `FN:${developerName}\n`
-+ `ORG: Developer Of Doge Bot ;\n`
++ `ORG: لو تبي تواصل مع مطور البوت ;\n`
 + `TEL;type=CELL;type=VOICE;waid=${developerNo}:${developerNo}\n`
 + 'END:VCARD'.trim()
 DogeXeonOP.sendMessage(from, {displayName: `The owner ${botname}`, vcard: vcard2}, contact, 
@@ -2868,10 +2851,10 @@ case 'script':
 case 'sourcode':
 
 scpic = fs.readFileSync('./media/scpic.jpg')
-scsell = `*🐶𝗗𝗼𝗴𝗲 𝗕𝗼𝘁 𝗩𝟯 𝗦𝗰𝗿𝗶𝗽𝘁🐶*\n\n_• 𝒀𝒐𝒖𝑻𝒖𝒃𝒆: https://youtube.com/channel/UCvAo9TZ0Pw9vrJ_0WYRyO3A_\n_• 𝑮𝒊𝒕𝑯𝒖𝒃: https://github.com/DGXeon/DogeBot3_\n\n_𝙄𝙛 𝙮𝙤𝙪 𝙬𝙞𝙨𝙝 𝙩𝙤 𝙗𝙪𝙮 𝙪𝙣𝙚𝙣𝙘𝙧𝙮𝙥𝙩𝙚𝙙 𝙨𝙘𝙧𝙞𝙥𝙩 𝙘𝙡𝙞𝙘𝙠 𝙤𝙣 𝙩𝙝𝙚 𝙗𝙪𝙮 𝙨𝙘𝙧𝙞𝙥𝙩 𝙗𝙪𝙩𝙩𝙤𝙣 𝙗𝙚𝙡𝙤𝙬._`
+scsell = `*BoT JeNoS*\n\n• تم عمل البوت وتطويرة وتعريبة من قبل جينوس😘 )؛  \n• جميع الحقوق محفوظة لدى جينوس 2022\n\n𝐉𝐄𝐍𝐎𝐒`
 but = [
-{ buttonId: `${prefix}rentbot`, buttonText: { displayText: 'BUY SCRIPT 💵' }, type: 1 },
-{ buttonId: `${prefix}developer`, buttonText: { displayText: 'DEVELOPER 👨🏼‍💻' }, type: 1 }
+{ buttonId: `${prefix}rentbot`, buttonText: { displayText: 'اسحب ع ذا 😌 )؛ ' }, type: 1 },
+{ buttonId: `${prefix}developer`, buttonText: { displayText: 'مطور البوت👨🏼‍💻 )؛ }, type: 1 }
 ]
 sendButImage(from, scsell, `*_${tanggal} - ${time}_*`, scpic, but)
 break
@@ -4038,7 +4021,7 @@ case 'bc':
 			"footerText": `${tanggal}`,
 			"buttons": [
 			{"buttonId": `${prefix}menu`,
-			"buttonText": {"displayText": "اللي بعدو🗃️"
+			"buttonText": {"displayText": "اللي بعدو🔄 )؛"
 			},"type": "RESPONSE"}
 			], "headerType": 'LOCATION',
 			locationMessage: { degreesLatitude: '',
