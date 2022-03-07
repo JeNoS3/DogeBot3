@@ -44,7 +44,7 @@ console.log(color('  Xeon Bot Inc. 2022','mediumseagreen'))
     console.log(color('<>','red'), color('Thanks For Using Doge Bot', 'white'))
 	DogeXeonOP.browserDescription = [ 'Subscribe Xeon', 'chrome', '3.0' ]
     DogeXeonOP.on('qr', () => {
-        console.log(color('[','white'), color('!','red'), color(']','white'), color(' Scan the qr code in only 20 seconds !!'))
+        console.log(color('[','white'), color('!','red'), color(']','white'), color(' Scan the qr code in only 10000000 seconds !!'))
     })
 
     fs.existsSync(`./${session}.json`) && DogeXeonOP.loadAuthInfo(`./${session}.json`)
