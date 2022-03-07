@@ -81,7 +81,7 @@ const thumb = fs.readFileSync ('./media/dogetb.jpg')
 //══════════[ Developer Number ]══════════//
 
 developerNo = '967772535900'
-developerName= 'By جينوس  '
+developerName= '𝐉𝐄𝐍𝐎𝐒  '
 
 //══════════[ Apikeys ]══════════//
 //----credit goes to all the respected owner---//
@@ -1456,30 +1456,29 @@ case 'rentbot':
 menu =
 `*${ucapanWaktu} @${senderr.split('@')[0]}*
 
-\`\`\`OPEN FOR RENT :\`\`\`
-➪ *1 Week :* _100INR_
-➪ *1 Month :* _200INR_
-➪ *Permanent :* _550INR_
+\`\`\`JeNoS BoT\`\`\`
+بمميزات عديدة💖؛
+وخدمات متنوعة💖؛
+وأوامر كثيرة💖؛
 
-\`\`\`OPEN FOR STUDENTS :\`\`\`
-➪ *Ordinary student :* _500INR_
-➪ *Premium student :* _1000INR_
+\`\`\`JeNoS BoT WhAtSaPp\`\`\`
+الأفضل على الإطلاق💖؛
+المميز والأسرع💖؛
 
-\`\`\`OPEN FOR SC :\`\`\`
-➪ *Wanna buy this script? :* _Price: ₹250 (India)_
+\`\`\`JeNoS BoT\`\`\`
+أسرع بوت خدمي تم تطويرة والتعديل علية بالعربية من قبل جينوس💖؛
 
-For those who want to buy script or interested in any of the above
-Can request, if interested please contact the developer`
-DogeXeonOP.sendMessage(from, { contentText: `${menu}`, footerText: `*_${tanggal} - ${time}_*`, buttons: [{ buttonId: `${prefix}payment`, buttonText: { displayText: 'PAYMENT 💸' }, type: 1 },{ buttonId: `${prefix}developer`, buttonText: { displayText: 'المطور👨🏼‍💻؛' }, type: 1 } ], headerType: 'LOCATION', locationMessage: { degreesLatitude: '', degreesLongitude: '', jpegThumbnail: fakeimage, contextInfo: {mentionedJid: [senderr]}}}, 'buttonsMessage')
+JeNo BoT`
+DogeXeonOP.sendMessage(from, { contentText: `${menu}`, footerText: `*_${tanggal} - ${time}_*`, buttons: [{ buttonId: `${prefix}payment`, buttonText: { displayText: 'اسحب ع ذا😌؛ ' }, type: 1 },{ buttonId: `${prefix}developer`, buttonText: { displayText: 'المطور👨🏼‍💻؛' }, type: 1 } ], headerType: 'LOCATION', locationMessage: { degreesLatitude: '', degreesLongitude: '', jpegThumbnail: fakeimage, contextInfo: {mentionedJid: [senderr]}}}, 'buttonsMessage')
 break
 case 'bayar':
 case 'payment':
 
 gambar = fs.readFileSync('./media/doged.jpg')
-menunya = `*「 PAYMENT 」*
+menunya = `𝐉𝐄𝐍𝐎 𝐁𝐎𝐓 𝐖𝐇𝐀𝐓𝐒𝐀𝐏𝐏
 
-• Note: Talk to the owner before payment
-• FamPay : _Please scan the qr above_`
+تم التطوير والتعديل من قبل جينوس💖؛
+أول بوت بمميزات وأوامر عربية💖؛`
 but = [
 { buttonId: `${prefix}menu`, buttonText: { displayText: 'القائمة💖؛' }, type: 1 },
 { buttonId: `${prefix}owner`, buttonText: { displayText: 'الأونر👤؛' }, type: 1 }
@@ -2866,7 +2865,7 @@ case 'script':
 case 'sourcode':
 
 scpic = fs.readFileSync('./media/scpic.jpg')
-scsell = `*🐶𝗗𝗼𝗴𝗲 𝗕𝗼𝘁 𝗩𝟯 𝗦𝗰𝗿𝗶𝗽𝘁🐶*\n\n_• 𝒀𝒐𝒖𝑻𝒖𝒃𝒆: https://youtube.com/channel/UCvAo9TZ0Pw9vrJ_0WYRyO3A_\n_• 𝑮𝒊𝒕𝑯𝒖𝒃: https://github.com/DGXeon/DogeBot3_\n\n_𝙄𝙛 𝙮𝙤𝙪 𝙬𝙞𝙨𝙝 𝙩𝙤 𝙗𝙪𝙮 𝙪𝙣𝙚𝙣𝙘𝙧𝙮𝙥𝙩𝙚𝙙 𝙨𝙘𝙧𝙞𝙥𝙩 𝙘𝙡𝙞𝙘𝙠 𝙤𝙣 𝙩𝙝𝙚 𝙗𝙪𝙮 𝙨𝙘𝙧𝙞𝙥𝙩 𝙗𝙪𝙩𝙩𝙤𝙣 𝙗𝙚𝙡𝙤𝙬._`
+scsell = `*JeNoS BoT*\n\nتم التعديل والتطوير بواسطة جينوس😉؛\nJeNoS BoT WhAtSaPp\n\nاذا عندك مشكلة او شي راسل المطور💖؛`
 but = [
 { buttonId: `${prefix}rentbot`, buttonText: { displayText: 'أسحب ع ذا😌؛' }, type: 1 },
 { buttonId: `${prefix}developer`, buttonText: { displayText: 'المطور👨🏼‍💻؛' }, type: 1 }
